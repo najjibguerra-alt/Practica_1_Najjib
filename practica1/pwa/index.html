@@ -71,6 +71,31 @@
             </div>
           </div>
 
+          <aside class="card counter-card" aria-label="Contador de ejemplos etiquetados">
+            <div>
+              <p class="eyebrow">Ejemplos etiquetados</p>
+              <div class="counter-total">
+                <strong id="label-count">—</strong>
+                <span>fragmentos con etiqueta</span>
+              </div>
+            </div>
+            <ul class="counter-list">
+              <li><span>Entrenamiento</span><strong id="count-train">—</strong></li>
+              <li><span>Validación</span><strong id="count-val">—</strong></li>
+              <li><span>Prueba</span><strong id="count-test">—</strong> <span class="counter-note">(fijo, conjunto de evaluación)</span></li>
+            </ul>
+            <div class="counter-balance">
+              <div class="balance-bar" aria-hidden="true"><span id="balance-pos"></span></div>
+              <p id="balance-text" class="counter-note">Cargando conteos…</p>
+            </div>
+
+            <!-- Contador de clasificación en la sesión actual -->
+            <div class="counter-session">
+              <p>Clasificados en sesión: <strong id="session-count">0</strong></p>
+              <p>Finanzas/riesgo: <strong id="session-finance">0</strong> | Mercado/propuesta: <strong id="session-market">0</strong> | Fuera de dominio: <strong id="session-reject">0</strong></p>
+            </div>
+          </aside>
+
           <div class="card result-card">
             <div id="empty-state" class="empty">
               <div class="empty-icon" aria-hidden="true">↗</div>
