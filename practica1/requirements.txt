@@ -1,0 +1,6 @@
+# Dependencias de la Práctica 1
+# Python 3.9+
+numpy>=1.26,<3
+pandas>=2.0,<3
+scikit-learn>=1.4,<2
+scipy>=1.10,<2

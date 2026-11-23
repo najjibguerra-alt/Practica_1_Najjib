@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ood_01",
+    "text": "",
+    "expected": "rechazar",
+    "reason": "texto vacío"
+  },
+  {
+    "id": "ood_02",
+    "text": "Hello, I would like to book a flight to New York next week. Please confirm the price and the baggage allowance.",
+    "expected": "rechazar",
+    "reason": "otro idioma"
+  },
+  {
+    "id": "ood_03",
+    "text": "Preheat the oven to 180 degrees. Mix flour, sugar and butter, then bake the cake for forty minutes until golden.",
+    "expected": "rechazar",
+    "reason": "receta, fuera de dominio"
+  },
+  {
+    "id": "ood_04",
+    "text": "def fibonacci(n):\n    if n <= 1:\n        return n\n    return fibonacci(n-1) + fibonacci(n-2)",
+    "expected": "rechazar",
+    "reason": "código, fuera de dominio"
+  },
+  {
+    "id": "ood_05",
+    "text": "El equipo local ganó el partido tres a uno con dos goles en el segundo tiempo y subió al primer lugar de la tabla.",
+    "expected": "rechazar",
+    "reason": "deporte, fuera de dominio"
+  },
+  {
+    "id": "ood_06",
+    "text": "La Constitución establece que toda persona tiene derecho a la educación y que el Estado debe garantizar su acceso en condiciones de igualdad.",
+    "expected": "rechazar",
+    "reason": "texto legal, fuera de dominio"
+  },
+  {
+    "id": "ood_07",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "expected": "rechazar",
+    "reason": "texto de relleno"
+  },
+  {
+    "id": "ood_08",
+    "text": "🎉🎉🎉 🔥🔥🔥 ✨✨✨",
+    "expected": "rechazar",
+    "reason": "solo emojis"
+  },
+  {
+    "id": "ood_09",
+    "text": "asdf qwer zxcv mnbv poiu lkjh ghfd trew yuiop ñlkj mnbg vcxz",
+    "expected": "rechazar",
+    "reason": "texto sin sentido"
+  },
+  {
+    "id": "ood_10",
+    "text": "Receta de mole poblano: use chile ancho, chile pasilla, chocolate, tortilla, almendras y especias; muela todo y cocine a fuego lento.",
+    "expected": "rechazar",
+    "reason": "receta en español, fuera de dominio"
+  }
+]

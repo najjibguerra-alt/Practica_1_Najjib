@@ -1,0 +1,18 @@
+[
+  {
+    "id": "finance",
+    "text": "La inversión inicial del proyecto es de USD 1,250,000 e incluye la compra de maquinaria, el capital de trabajo y los costos de instalación. El flujo de efectivo proyectado a cinco años tiene un margen bruto del 32%, un VAN positivo de USD 410,000 y una TIR del 18.4%. El punto de equilibrio se alcanza en el mes 14. Los principales riesgos son el aumento del costo de los materiales y la demora en la cadena de suministro; se propone una contingencia del 8% del presupuesto."
+  },
+  {
+    "id": "market",
+    "text": "El cliente objetivo son resorts de aventura en la península de Yucatán que necesitan una flota de vehículos todo terreno para tours guiados. El mercado de turismo de aventura crece 7% anual y los competidores principales son Polaris, Can-Am y proveedores locales de renta. La propuesta se dirige a gerentes de operaciones y dueños de hospedaje boutique. El canal principal será la venta directa con demostraciones en sitio, apoyada por marketing digital y alianzas con operadores turísticos."
+  },
+  {
+    "id": "ood_english",
+    "text": "Hello, I would like to book a flight to New York next week. Please confirm the price and the baggage allowance for two passengers."
+  },
+  {
+    "id": "ood_recipe",
+    "text": "Preheat the oven to 180 degrees. Mix flour, sugar and butter, then bake the cake for forty minutes until golden. Let it cool before serving."
+  }
+]

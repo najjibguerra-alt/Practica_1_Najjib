@@ -1,0 +1,9 @@
+data/*
+!data/README.md
+artifacts/*
+!artifacts/README.md
+__pycache__/
+*.pyc
+
+# El .gitignore raíz ignora *.png; los iconos de la PWA sí deben publicarse.
+!pwa/*.png
